@@ -49,6 +49,9 @@ export default function Intro() {
             <img src='src/assets/languages/express.png' alt='logo' />
           </SwiperSlide>
           <SwiperSlide>
+            <img src='src/assets/languages/mysql.svg' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
             <img src='src/assets/languages/nodejs.png' alt='logo' />
           </SwiperSlide>
         </Swiper>
