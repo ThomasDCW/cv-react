@@ -19,20 +19,36 @@ export default styled.section`
     margin-top: 4vh;
     letter-spacing: 0.2em;
     h1 {
-      width: 100%;
-      padding: 0.5em;
+      padding-left: 1em;
       font-weight: bold;
-      font-size: 1.6em;
+      font-size: 1.4em;
+
+      span {
+        color: #f2b84b;
+        font-size: 1.6em;
+      }
     }
     p {
-      padding: 0.5em;
-      margin-top: 0.5em;
+      padding: 1em;
+      margin-top: 1.6em;
+      margin-bottom: 1.6em;
       text-align: justify;
+    }
+    .border {
+      border-bottom: 1px solid #f2b84b;
+      margin-left: 2em;
+      margin-right: 2em;
+      margin-bottom: 2vh;
+      margin-top: 2vh;
     }
   }
   .logoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     img {
       height: 70px;
+      margin: 3em;
     }
   }
 `;

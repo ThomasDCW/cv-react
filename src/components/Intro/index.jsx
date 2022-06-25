@@ -9,25 +9,26 @@ export default function Intro() {
         alt='cv-photo'
       />
       <article className='resumeContainer'>
-        <h1>Resume</h1>
+        <h1>
+          <span>R</span>esume
+        </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat beatae
           magni, accusamus esse, error dolorum nemo obcaecati, voluptatem vel
           perspiciatis unde voluptates? Fugiat maxime nesciunt provident
           officiis dolorem, recusandae officia.
         </p>
-        <h1>Languages</h1>
+        <div className='border' />
+        <h1>
+          <span>L</span>anguages
+        </h1>
         <div className='logoContainer'>
           <img src='src/assets/languages/html.png' alt='' />
-          <img
-            src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png'
-            alt=''
-          />
-          <img
-            src='https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png'
-            alt=''
-          />
+          <img src='src/assets/languages/css.png' alt='' />
+          <img src='src/assets/languages/js.png' alt='' />
+          <img src='src/assets/languages/react.png' alt='' />
           <img src='src/assets/languages/nodejs.png' alt='' />
+          <img src='src/assets/languages/express.png' alt='' />
         </div>
       </article>
     </SIntro>
