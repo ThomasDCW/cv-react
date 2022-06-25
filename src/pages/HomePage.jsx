@@ -1,3 +1,10 @@
+import Intro from '../components/Intro';
+import SHomePage from './style';
+
 export default function HomePage() {
-  return <>CV</>;
+  return (
+    <SHomePage>
+      <Intro />
+    </SHomePage>
+  );
 }
