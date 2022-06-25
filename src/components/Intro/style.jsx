@@ -3,35 +3,39 @@ import styled from 'styled-components';
 export default styled.section`
   color: white;
   background-color: #e9e9e929;
-  width: 30vw;
-  min-height: 90vh;
+  width: 22vw;
+  height: 96vh;
   border: 1px gray solid;
   border-radius: 8px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-left: 1.6vw;
   .cvPicture {
+    width: 200px;
+    height: 200px;
     margin-top: 4vh;
     border-radius: 50%;
     filter: drop-shadow(0px 3px 8px rgba(243, 243, 243, 0.116));
   }
   .resumeContainer {
+    height: 60%;
     margin-top: 4vh;
     letter-spacing: 0.2em;
     h1 {
-      padding-left: 1em;
+      margin-left: 1em;
       font-weight: bold;
       font-size: 1.4em;
 
       span {
+        font-family: Georgia, 'Times New Roman', Times, serif;
         color: #f2b84b;
         font-size: 1.6em;
       }
     }
     p {
-      padding: 1em;
-      margin-top: 1.6em;
-      margin-bottom: 1.6em;
+      margin: 1em;
+
       text-align: justify;
     }
     .border {
@@ -42,13 +46,18 @@ export default styled.section`
       margin-top: 2vh;
     }
   }
-  .logoContainer {
+
+  .swiper {
+    margin-top: 4vh;
+    width: 168px;
+    filter: drop-shadow(0px 3px 4px rgba(243, 243, 243, 0.664));
+  }
+  .swiper-slide {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    border-radius: 50%;
     img {
-      height: 70px;
-      margin: 3em;
+      width: 168px;
     }
   }
 `;

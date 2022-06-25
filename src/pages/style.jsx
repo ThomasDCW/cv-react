@@ -5,6 +5,6 @@ export default styled.div`
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   min-height: 100vh;
   background-color: #1b252d;
-  padding: 1em;
   display: flex;
+  align-items: center;
 `;

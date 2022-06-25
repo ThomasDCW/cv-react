@@ -1,3 +1,7 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+import { EffectCards } from 'swiper';
 import SIntro from './style';
 
 export default function Intro() {
@@ -22,14 +26,32 @@ export default function Intro() {
         <h1>
           <span>L</span>anguages
         </h1>
-        <div className='logoContainer'>
-          <img src='src/assets/languages/html.png' alt='' />
-          <img src='src/assets/languages/css.png' alt='' />
-          <img src='src/assets/languages/js.png' alt='' />
-          <img src='src/assets/languages/react.png' alt='' />
-          <img src='src/assets/languages/nodejs.png' alt='' />
-          <img src='src/assets/languages/express.png' alt='' />
-        </div>
+
+        <Swiper
+          effect={'cards'}
+          grabCursor={true}
+          modules={[EffectCards]}
+          className='mySwiper'
+        >
+          <SwiperSlide>
+            <img src='src/assets/languages/html.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/languages/css.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/languages/js.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/languages/react.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/languages/express.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/languages/nodejs.png' alt='logo' />
+          </SwiperSlide>
+        </Swiper>
       </article>
     </SIntro>
   );
