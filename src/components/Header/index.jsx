@@ -4,7 +4,8 @@ export default function Skills() {
   return (
     <SSkills>
       <h1>
-        <a>Hover me </a>
+        <a>Hello </a>
+        <img src='src/assets/logo/hi.png' />
       </h1>
       <p>Hi, I'm Thomas, 30yo. A passionate JS-developer from Lille, France</p>
       <section className='articleContainer'>

@@ -35,11 +35,13 @@ export default styled.section`
       width: 48px;
       height: 48px;
       margin-right: 1.6em;
+      animation: rotation 6s linear infinite;
     }
     li {
       display: flex;
       align-items: center;
       font-size: 1.2em;
+      margin-bottom: 2em;
     }
     .firstArticle {
       li {
