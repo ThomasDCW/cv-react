@@ -1,18 +1,20 @@
+import { NavLink } from 'react-router-dom';
 import SSkills from './style';
 
 export default function Skills() {
   return (
     <SSkills>
       <h1>
-        <a>Hover me </a>
+        Hello
+        <img src='src/assets/logo/hi.png' />
       </h1>
-      <p>Hi, I'm Thomas, 30yo. A passionate JS-developer from Lille, France</p>
+      <p>Hi, I'm Thomas, 30yo. A passionate JS-developer</p>
       <section className='articleContainer'>
         <article className='firstArticle'>
           <ul>
             <li>
-              <img src='src/assets/logo/map.png' />
-              La Madeleine
+              <img src='src/assets/logo/french.png' />
+              Lille
             </li>
             <li>
               <img src='src/assets/logo/car.png' />
@@ -29,11 +31,13 @@ export default function Skills() {
           <ul>
             <li>
               <img src='src/assets/logo/github.png' />
-              ThomasDCW
+              <a href='https://github.com/ThomasDCW'>ThomasDCW</a>
             </li>
             <li>
               <img src='src/assets/logo/linkedin.png' />
-              Thomas DC
+              <a href='https://www.linkedin.com/in/thomas-di-cola-251843181/'>
+                Thomas DC
+              </a>
             </li>
 
             <li>
