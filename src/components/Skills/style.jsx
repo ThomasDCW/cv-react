@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.section`
-  color: white;
+  color: var(--text);
   width: 100%;
   margin-top: 2vh;
 
@@ -26,7 +26,7 @@ export default styled.section`
         margin-right: 10vw;
       }
 
-      border-right: 2px solid #6a6a6a;
+      border-right: 2px solid var(--transparantGrey);
     }
   }
   .border {
@@ -34,7 +34,7 @@ export default styled.section`
     margin-right: 10vw;
     margin-top: 4vh;
     text-align: center;
-    border-bottom: 2px solid #6a6a6a;
+    border-bottom: 2px solid var(--transparantGrey);
   }
 
   // text animation
@@ -51,11 +51,11 @@ export default styled.section`
 
   .content h1:nth-child(1) {
     color: transparent;
-    -webkit-text-stroke: 1px #f2b84b;
+    -webkit-text-stroke: 1px var(--primary);
   }
 
   .content h1:nth-child(2) {
-    color: #f2b84b;
+    color: var(--primary);
     animation: animate 3s ease-in-out infinite;
   }
 

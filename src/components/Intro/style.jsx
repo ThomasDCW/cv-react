@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export default styled.section`
-  color: white;
-  background-color: #e9e9e929;
+  color: var(--text);
+  background-color: var(--transparantGrey);
   width: 22vw;
   border: 1px gray solid;
   border-radius: 8px;
@@ -28,7 +28,7 @@ export default styled.section`
 
       span {
         font-family: Georgia, 'Times New Roman', Times, serif;
-        color: #f2b84b;
+        color: var(--primary);
         font-size: 1.6em;
       }
     }
@@ -38,7 +38,7 @@ export default styled.section`
       text-align: justify;
     }
     .border {
-      border-bottom: 1px solid #f2b84b;
+      border-bottom: 1px solid var(--primary);
       margin-left: 2em;
       margin-right: 2em;
       margin-bottom: 2vh;
