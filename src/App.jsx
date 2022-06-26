@@ -1,11 +1,12 @@
+import VariableCSS from './AppStyle.jsx';
 import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
+      <VariableCSS>
         <HomePage />
-      </header>
+      </VariableCSS>
     </div>
   );
 }
