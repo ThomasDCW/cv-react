@@ -41,7 +41,7 @@ export default styled.section`
       display: flex;
       align-items: center;
       font-size: 1.2em;
-      margin-bottom: 2em;
+      margin-bottom: 1.2em;
     }
     .firstArticle {
       li {

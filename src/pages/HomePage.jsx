@@ -1,11 +1,11 @@
-import Intro from '../components/Intro';
+import Side from '../components/Side';
 import Header from '../components/Header';
 import SHomePage from './style';
 
 export default function HomePage() {
   return (
     <SHomePage>
-      <Intro />
+      <Side />
       <Header />
     </SHomePage>
   );
