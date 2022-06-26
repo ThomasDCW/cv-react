@@ -1,12 +1,12 @@
 import Intro from '../components/Intro';
-import Skills from '../components/Skills';
+import Header from '../components/Header';
 import SHomePage from './style';
 
 export default function HomePage() {
   return (
     <SHomePage>
       <Intro />
-      <Skills />
+      <Header />
     </SHomePage>
   );
 }

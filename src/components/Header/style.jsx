@@ -1,21 +1,20 @@
 import styled from 'styled-components';
 
 export default styled.section`
-  color: white;
+  color: var(--text);
   width: 100%;
   margin-top: 2vh;
-
   h1 {
     margin-left: 2vw;
     color: #f2b84b;
     font-size: 2.6em;
     font-weight: bold;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
   }
   p {
     margin-left: 2vw;
     color: #6a6a6a;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: bold;
   }
   a {
@@ -26,7 +25,6 @@ export default styled.section`
   a:hover {
     background-size: 100% 100%;
   }
-
   .articleContainer {
     display: flex;
     justify-content: space-evenly;
@@ -48,7 +46,7 @@ export default styled.section`
         margin-right: 10vw;
       }
 
-      border-right: 2px solid #6a6a6a;
+      border-right: 2px solid var(--transparantGrey);
     }
   }
   .border {
@@ -56,6 +54,6 @@ export default styled.section`
     margin-right: 10vw;
     margin-top: 4vh;
     text-align: center;
-    border-bottom: 2px solid #6a6a6a;
+    border-bottom: 2px solid var(--transparantGrey);
   }
 `;

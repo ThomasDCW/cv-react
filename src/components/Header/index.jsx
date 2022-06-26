@@ -4,9 +4,9 @@ export default function Skills() {
   return (
     <SSkills>
       <h1>
-        <a>DC THOMAS</a>
+        <a>Hover me </a>
       </h1>
-      <p>30 yo</p>
+      <p>Hi, I'm Thomas, 30yo. A passionate JS-developer from Lille, France</p>
       <section className='articleContainer'>
         <article className='firstArticle'>
           <ul>
@@ -19,7 +19,8 @@ export default function Skills() {
               Driving licence
             </li>
             <li>
-              <img src='src/assets/logo/homeoffice.png' /> I'm ok with Remote
+              <img src='src/assets/logo/homeoffice.png' />
+              Remote
             </li>
           </ul>
         </article>
