@@ -3,10 +3,10 @@ import SSkills from './style';
 export default function Skills() {
   return (
     <SSkills>
-      <h1>
-        <a>DC THOMAS</a>
-      </h1>
-      <p>30 yo</p>
+      <div className='content'>
+        <h1>DC Thomas</h1>
+        <h1>DC Thomas</h1>
+      </div>
       <section className='articleContainer'>
         <article className='firstArticle'>
           <ul>
@@ -19,7 +19,8 @@ export default function Skills() {
               Driving licence
             </li>
             <li>
-              <img src='src/assets/logo/homeoffice.png' /> I'm ok with Remote
+              <img src='src/assets/logo/homeoffice.png' />
+              Remote
             </li>
           </ul>
         </article>
