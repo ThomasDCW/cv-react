@@ -3,10 +3,10 @@ import SSkills from './style';
 export default function Skills() {
   return (
     <SSkills>
-      <div className='content'>
-        <h1>DC Thomas</h1>
-        <h1>DC Thomas</h1>
-      </div>
+      <h1>
+        <a>Hover me </a>
+      </h1>
+      <p>Hi, I'm Thomas, 30yo. A passionate JS-developer from Lille, France</p>
       <section className='articleContainer'>
         <article className='firstArticle'>
           <ul>

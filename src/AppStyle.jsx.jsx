@@ -8,4 +8,7 @@ export default styled.div`
   --background: #1b252d;
   --transparantGrey: #e9e9e929;
   --text: white;
+  --fontMain: 1rem 'Poppins', sans-serif;
+
+  font: var(--fontMain);
 `;
