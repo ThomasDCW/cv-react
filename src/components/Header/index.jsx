@@ -42,7 +42,7 @@ export default function Skills() {
 
             <li>
               <img src='src/assets/logo/mail.png' />
-              thomas.dicola@hotmail.fr
+              <a href='thomas.dicola@hotmail.fr'>thomas.dicola@hotmail.fr</a>
             </li>
           </ul>
         </article>

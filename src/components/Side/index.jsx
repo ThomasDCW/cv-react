@@ -45,6 +45,31 @@ export default function Intro() {
             <img src='src/assets/languages/nodejs.png' alt='logo' />
           </SwiperSlide>
         </Swiper>
+        <h1>
+          <span>T</span>ools
+        </h1>
+        <Swiper
+          effect={'cards'}
+          grabCursor={true}
+          modules={[EffectCards]}
+          className='mySwiper'
+        >
+          <SwiperSlide>
+            <img src='src/assets/tools/ubuntu.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/tools/codium.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/tools/github.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/tools/insomnia.png' alt='logo' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='src/assets/tools/workbench.png' alt='logo' />
+          </SwiperSlide>
+        </Swiper>
       </article>
     </SIntro>
   );
