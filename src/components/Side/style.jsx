@@ -32,7 +32,8 @@ export default styled.section`
   }
 
   .swiper {
-    margin-top: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
     width: 8vw;
     filter: drop-shadow(0px 3px 4px rgba(243, 243, 243, 0.664));
   }
